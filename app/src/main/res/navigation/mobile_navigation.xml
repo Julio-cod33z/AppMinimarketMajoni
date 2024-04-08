@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/menuPrincipalFragment">
+    <fragment
+        android:id="@+id/agregarProductoFragment"
+        android:name="pe.edu.idat.appminimarketmajoni.view.fragments.AgregarProductoFragment"
+        android:label="@string/menu_agregar_producto"
+        tools:layout="@layout/fragment_agregar_producto" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="pe.edu.idat.appminimarketmajoni.view.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/actualizarProductoFragment"
+        android:name="pe.edu.idat.appminimarketmajoni.view.fragments.ActualizarProductoFragment"
+        android:label="@string/menu_actualizar_producto"
+        tools:layout="@layout/fragment_actualizar_producto" />
+    <fragment
+        android:id="@+id/eliminarProductoFragment"
+        android:name="pe.edu.idat.appminimarketmajoni.view.fragments.EliminarProductoFragment"
+        android:label="@string/menu_eliminar_producto"
+        tools:layout="@layout/fragment_eliminar_producto" />
+    <fragment
+        android:id="@+id/menuPrincipalFragment"
+        android:name="pe.edu.idat.appminimarketmajoni.view.fragments.MenuPrincipalFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_menu_principal" />
+    <fragment
+        android:id="@+id/generarInformeFragment"
+        android:name="pe.edu.idat.appminimarketmajoni.view.fragments.GenerarInformeFragment"
+        android:label="@string/label_menu_informe"
+        tools:layout="@layout/fragment_generar_informe" />
+</navigation>

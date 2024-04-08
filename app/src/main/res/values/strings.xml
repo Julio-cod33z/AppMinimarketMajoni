@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AppMinimarketMajoni</string>
+    <string name="title_activity_menu_principal">MenuPrincipalActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Minimarket Majoni</string>
+    <string name="nav_header_subtitle">Control de Inventario</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valetcodprod">Ingrese el código del producto</string>
+    <string name="valetnombreprod">Ingrese el nombre del producto</string>
+    <string name="valtvusername">Usuario</string>
+    <string name="valetcontraseña">Contraseña</string>
+    <string name="valbtnIngresar">INGRESAR</string>
+    <string name="menu_agregar_producto">Agregar</string>
+    <string name="valetprecio">0.00</string>
+    <string name="menu_actualizar_producto">Actualizar</string>
+    <string name="valetdescripcion">Ingrese una descripción para el producto...</string>
+    <string name="valetcantidad">0</string>
+    <string name="menu_principal">Menú Principal</string>
+    <string name="menu_eliminar_producto">Eliminar</string>
+    <string name="valtvagregarprod">Agregar Productos</string>
+    <string name="valtvactualizarprod">Actualizar Productos</string>
+    <string name="valtveliminarprod">Eliminar Productos</string>
+    <string name="valtvlistadoprod">Listado Productos</string>
+    <string name="valtvgenerarinfo">Generar Informe</string>
+    <string name="valtvconfig">Configuración</string>
+    <string name="menu_generar_informe">Informe</string>
+    <string name="label_menu_informe">Informe</string>
+    <string name="tituloinforme">Informe de Ventas</string>
+    <string name="valetdfechainfo">DD/MM/AA</string>
+    <string name="valbtnverinfo">VER INFORME</string>
+    <string name="valbtncompartir">COMPARTIR</string>
+    <string name="valbtnguardar">GUARDAR</string>
+    <string name="valbtnimprimir">IMPRIMIR</string>
+    <string name="valsvbuscarprod">Buscar producto</string>
+    <string name="valbtneliminarprod">ELIMINAR</string>
+    <string name="valbtnbuscar">Buscar</string>
+    <string name="valtvnombre">NOMBRE</string>
+    <string name="valtvcategoria">CATEGORÍA</string>
+    <string name="valtvcodigo">CÓDIGO</string>
+    <string name="valtvcantidad">CANTIDAD</string>
+    <string name="valtvprecio">PRECIO</string>
+    <string name="valtvdescripcion">DESCRIPCIÓN</string>
+    <string name="valtvimagen">IMAGEN</string>
+    <string name="valtvfoto">Tomar Foto</string>
+</resources>
