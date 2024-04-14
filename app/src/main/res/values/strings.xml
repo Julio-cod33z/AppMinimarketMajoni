@@ -51,4 +51,5 @@
     <string name="valtvdescripcion">DESCRIPCIÓN</string>
     <string name="valtvimagen">IMAGEN</string>
     <string name="valtvfoto">Tomar Foto</string>
+    <string name="valcbrecordar">¿Recordar Usuario?</string>
 </resources>
