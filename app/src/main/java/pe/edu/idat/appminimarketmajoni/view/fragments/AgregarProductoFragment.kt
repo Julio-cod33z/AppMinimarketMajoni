@@ -16,6 +16,7 @@ import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
 import pe.edu.idat.appminimarketmajoni.R
 import pe.edu.idat.appminimarketmajoni.databinding.FragmentAgregarProductoBinding
+import pe.edu.idat.appminimarketmajoni.model.db.dao.ProductoDao
 import java.io.File
 
 
