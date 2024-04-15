@@ -12,7 +12,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
 import pe.edu.idat.appminimarketmajoni.R
@@ -52,7 +51,7 @@ class AgregarProductoFragment : Fragment(), View.OnClickListener {
                     obtenerContenidoUri(file)
                 /*FileProvider.getUriForFile(
                     requireContext(),
-                    "pe.edu.idat.appcamara.fileprovider",
+                    "pe.edu.idat.appminimarketmajoni.fileprovider",
                     file
                 )*/
                 it.putExtra(MediaStore.EXTRA_OUTPUT, fotoUri)
@@ -87,16 +86,4 @@ class AgregarProductoFragment : Fragment(), View.OnClickListener {
             ,".jpg", directorioImg)
         rutaFotoActual = file.absolutePath
     }
-
-    /*private fun crearArchivoFoto() {
-        val directoriosImg = ContextCompat.getExternalFilesDirs(requireContext(), Environment.DIRECTORY_PICTURES)
-        if (directoriosImg.isNotEmpty()) {
-            val directorioImg = directoriosImg[0]
-            file = File.createTempFile("IMG_${System.currentTimeMillis()}_", ".jpg", directorioImg)
-            rutaFotoActual = file.absolutePath
-        } else {
-            // Maneja el caso donde no se pudo obtener el directorio de imágenes externas
-            // Aquí puedes proporcionar una alternativa o lanzar una excepción según sea necesario
-        }
-    }*/
 }
