@@ -31,7 +31,7 @@ class AgregarProductoFragment : Fragment() {
         _binding = FragmentAgregarProductoBinding.inflate(inflater, container, false)
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("URL_BASE_DE_TU_API")
+            .baseUrl("http://localhost:8093/productos")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
@@ -43,8 +43,7 @@ class AgregarProductoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Aquí puedes configurar los listeners para los botones u otros elementos de tu diseño
-        // y manejar la lógica para agregar productos cuando se interactúa con ellos
+
         binding.button.setOnClickListener {
             agregarProducto()
         }

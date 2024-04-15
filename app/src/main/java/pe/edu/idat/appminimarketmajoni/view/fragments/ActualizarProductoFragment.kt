@@ -29,7 +29,7 @@ class ActualizarProductoFragment : Fragment() {
         _binding = FragmentActualizarProductoBinding.inflate(inflater, container, false)
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("URL_BASE_DE_TU_API")
+            .baseUrl("http://localhost:8093/productos")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
@@ -52,11 +52,9 @@ class ActualizarProductoFragment : Fragment() {
             override fun onResponse(call: Call<Producto>, response: Response<Producto>) {
                 if (response.isSuccessful) {
                     val producto = response.body()
-                    // Mostrar los detalles del producto en la interfaz de usuario
                     producto?.let { mostrarDetallesProducto(it) }
                 } else {
-                    // Manejar el caso en el que no se encuentre el producto
-                    // Puedes mostrar un mensaje de error o limpiar los campos
+
                 }
             }
 
