@@ -9,6 +9,9 @@ interface ProductoService {
     @GET("productos")
     fun obtenerProductos(): Call<List<Producto>>
 
+    @GET("productos/{codigo}")
+    fun obtenerProductoPorCodigo(@Path("codigo") codigo: Int): Call<Producto>
+
     @POST("productos")
     fun crearProducto(@Body producto: Producto): Call<Void>
 
