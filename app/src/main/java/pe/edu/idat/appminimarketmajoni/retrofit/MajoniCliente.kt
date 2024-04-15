@@ -15,7 +15,7 @@ object MajoniCliente {
         .build()
 
     private fun buildRetrofit() = Retrofit.Builder()
-        .baseUrl("http://localhost:9903/")
+        .baseUrl("http://localhost:9905/")
         .client(retrofitCliente)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
